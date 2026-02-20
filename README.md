@@ -1,20 +1,28 @@
-# AES-128-Hardware-accelerator (Work in progress)
+# AES-128 Hardware Accelerator (Work in Progress)
 
-This project implements an RTL-level AES-128 encryption engine using Verilog.
-Current progress includes implementation of core cryptographic modules and initial verification setup.
+This project focuses on designing an RTL-based AES-128 encryption hardware accelerator using Verilog HDL. The goal is to develop a modular and synthesizable architecture capable of efficient cryptographic processing.
 
-Implemented modules:
+## Project Overview
 
-* Key Expansion
-* SubBytes
-* Partial encryption round
+AES is a widely used symmetric encryption standard. This project aims to implement the AES encryption pipeline at hardware level using structured modules and control logic.
 
-Work in progress:
+## Planned Architecture Modules
 
-* FSM controller
-* Full round integration
-* Testbench validation
+* Key Expansion Unit
+* SubBytes Transformation
+* ShiftRows Operation
+* MixColumns Operation
+* Round Control FSM
+* Top-Level Integration
 
-Goal:
-To design a complete hardware accelerator for AES encryption optimized for performance and modularity.
+## Current Status
 
+Architecture design and module planning completed. Implementation and verification are currently in progress.
+
+## Objective
+
+To build a high-performance cryptographic accelerator suitable for FPGA or ASIC implementation and gain hands-on experience in RTL design and hardware optimization.
+
+This project is actively under process.
+
+This project is actively under development.
