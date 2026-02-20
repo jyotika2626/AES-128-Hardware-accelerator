@@ -25,4 +25,4 @@ To build a high-performance cryptographic accelerator suitable for FPGA or ASIC 
 
 This project is actively under process.
 
-This project is actively under development.
+
